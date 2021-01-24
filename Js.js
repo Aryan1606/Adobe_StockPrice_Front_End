@@ -1,5 +1,5 @@
 var ii=document.getElementById("output1");
-ii.innerHTML="500";
+ii.innerHTML="Stock Price";
 var j = setInterval(async () => {
     //  let url=
     //   "https://www.google.com/async/finance_wholepage_price_updates?ei=SMFHX-K3Id6V4-EPy-qOuA4&yv=3&dfsl=1&async=mids:%2Fm%2F07zm31w,currencies:,_fmt:jspb",
@@ -43,4 +43,4 @@ var j = setInterval(async () => {
         setCount((prevCount) => z);
       })
       .catch((err) => console.log(err.message));
-  }, 4000);
+  }, 1000);
